@@ -61,7 +61,7 @@ docker compose up -d
 
 ### 3. Access Airflow UI
 Once services are running, open your browser:
-- **URL**: [http://localhost:8080](http://localhost:8080)
+- **URL**: [http://localhost:8085](http://localhost:8085) (Port 8085 is used to avoid port 8080 conflict with Jenkins)
 - **Username**: `airflow`
 - **Password**: `airflow`
 
